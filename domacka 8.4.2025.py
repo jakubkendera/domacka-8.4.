@@ -1,3 +1,5 @@
+from PIL import image
+
 fr=open("ciernobiely_obrazok_1.txt","r",encoding="UTF-8")
 riadok=fr.readline() #zoberieme iba prvy riadok
 sirka, vyska=riadok.strip().split()
